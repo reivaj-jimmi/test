@@ -1,0 +1,49 @@
+body {
+    background-image:url(Recursos/Fondo.jpg);
+    /*Es para que la imagen cubra toda el area */
+    background-size: cover;
+    /*Para colocar la imagen el centro de la pagina*/
+  background-position: center;
+  /*Es para que la imagen no se repita*/
+  background-repeat: no-repeat;
+  /*Es para poner el tipo de letra o tipografia*/
+  font-family: Arial, sans-serif;
+  /* es parque el texto sea mas visible */
+  color: white; 
+/*Es para darle espacio interior al fondo*/
+  padding: 50px;
+}
+h1 {
+    /*alinear texto*/
+    text-align: center;
+    /*Color de texto*/
+    color: #fff;
+    /*Tipo de topgrafia*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+  width: fit-content; /* Ajusta el ancho al contenido */
+  padding: 10px 20px; /* Ajusta el espaciado interno */
+  margin: 0 auto; /* Centra horizontalmente */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 18px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  margin: 0 10px;
+}
+nav a:hover{
+  background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}

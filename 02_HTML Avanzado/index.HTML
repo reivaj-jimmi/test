@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML AVANZADO</title>
+</head>
+<body>
+    <button>Saludar</button>
+    <p></p>
+    <script>
+       const btn= document.querySelector ('button'); 
+       const parrafo= document.querySelector('p');
+
+       btn.addEventListener ('click', realizaSaludo);
+
+       function realizaSaludo (){
+        parrafo.innerText= 'Hola JavaScrip!!';
+       }
+    </script>
+<h1>Lista de alumnos</h1>
+<table>
+    <thead>
+        <th>Cod. </th>
+        <th>Nombre </th>
+        <th>Correo </th>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>01</td>
+            <td>Juan</td>
+            <td>Juan@gmail.com</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Jimmi</td>
+            <td>jimmiarguellozaracho@gmail.com</td>
+   </tr>
+    </tbody>
+</table>
+   
+<h1>Etiquetas para Formularios</h1>
+<h3>Formulario para registro de personas</h3>
+<form>
+
+</form>
+<label for="Nombre">Nombre   </label><br>
+<input type="text" name="Nombre" id="Nombre"> <br>
+
+<label for="Apellido">Apellido </label><br>
+<input type="text" name="Apellido" id="Apellido"><br>  
+
+<label for="documento">Documento</label><br>
+<input type="number" name="Documento" id="Documento"><br>
+
+<label for="Genero">Genero:  </label><br>
+Masculino<input type="radio" name="Genero" id="masc" value="m"><br>
+Femenino<input type="radio" name="Genero" id="fem" value="f"><br> <br>
+
+<input type="submit" value="Enviar Datos">
+<input type="reset" value="Vaciar Formulario">
+</body>
+</html>

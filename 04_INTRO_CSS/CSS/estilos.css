@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Titulos*/
+h1{
+    /*Centrar texto y cambiar color*/
+    color: gold;
+    text-align: center;
+    /*Sombra de texto el primer valor de es para la forma vertical y la segunda de forma horizontal y la tercera la medidad de la sombra*/
+    text-shadow: 20px 10px 10px black;
+    /*Tipo de texto*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Barra de mando*/
+nav {
+    /*para separar los bordes internos de la barra de mando (padin-left seria la zona inerior izquierda*/
+    padding-left: 600px;
+/*padding-top para el borde interor de arriba*/
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+/* word-spacin es para separar las palabras o algo asi*/
+    word-spacing: 100px;
+}
+nav a {
+text-decoration: none;
+}
+/*el "hover" es para que cuando el cursos pase sobre el texto aga un funcion*/
+nav a:hover {
+    text-decoration: underline;
+    text-shadow: 10px 10px 20px black;
+}
+section {
+    /*seria el borde del recuadro "solid seria oara que se muestre la linea"*/
+    border: 2px solid black;
+    /*el border radius es para que se encurben las esquinas*/
+    border-radius: 5px;
+    padding-left: 20px;
+    /*el width seria el ancho*/
+    width: 80%;
+    /*el margin*/
+    margin: 10px auto;
+    background-color: aquamarine;
+    box-shadow: 0 0 5px 2px black;
+}
